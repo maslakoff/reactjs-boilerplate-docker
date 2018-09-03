@@ -17,3 +17,4 @@ RUN apk upgrade --update && apk add \
 
 EXPOSE 3000
 
+WORKDIR /frontend
